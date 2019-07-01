@@ -1,0 +1,40 @@
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+body{
+    background-color:crimson;
+}
+
+div {
+    text-align: center;
+}
+
+.informacion{
+    background-color: #f8f9fa;
+    border: solid 2px black;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: solid black 2px;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 7px 15px;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .button1 {border-radius: 2px;}
+  .button2 {border-radius: 4px;}
+  .button3 {border-radius: 8px;}
+  .button4 {border-radius: 12px;}
+  .button5 {border-radius: 50%;}

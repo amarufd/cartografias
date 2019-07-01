@@ -4,27 +4,28 @@
         <meta charset="utf-8">
         <title>Cartografia Maps</title>
         <link rel="stylesheet" href="../lib/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../utils/style.css">
 
 
         <script type="text/javascript" src="../lib/jquery-3.4.1/jquery-3.4.1.js"></script>
         <script type="text/javascript" src="../lib/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
         <script type="text/javascript" src="../lib/angular-1.7.8/angular.js"></script>
 
-        <script type="text/javascript" src="functions.js"></script>
+        <script type="text/javascript" src="../utils/functions.js"></script>
     </head>
-
+    
     <body onload="initMap()">
         <div class="container">
+            <div navbar="../utils/menu.html"></div> 
             <h1>Cartografia</h1>
             <!--The div element for the map -->
             <div id="map"></div>
             <!--Load the API from the specified URL
-            * The async attribute allows the browser to render the page while the API loads
-            * The key parameter will contain your own API key (which is not needed for this tutorial)
-            * The callback parameter executes the initMap() function
-            -->
-            
+                * The async attribute allows the browser to render the page while the API loads
+                * The key parameter will contain your own API key (which is not needed for this tutorial)
+                * The callback parameter executes the initMap() function
+                -->
+                
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo3NrvZsMqYBRRc_j6y2AJcjo8KTO5AUw&callback=initMap">
             </script>
         </div>
