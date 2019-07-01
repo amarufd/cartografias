@@ -4,7 +4,7 @@ var port = process.env.PORT || 3000
 
 
 http.createServer(function(req, res) {
-    var url = './' + (req.url == 'www/' ? 'www/index.html' : req.url)
+    var url = './www/' + (req.url == '/' ? 'index.html' : req.url)
     fs.readFile(url, function(err, html) {
         if (err) {
             var message404 = "There is no such page! <a href='/'>Back to home page</a>"
