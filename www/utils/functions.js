@@ -102,4 +102,19 @@ function initMap() {
 
       includeHTML();
 
+      document.getElementById("btn1").onclick = function () { CambioImagen(); $('#1957').show();};
+      document.getElementById("btn2").onclick = function () { CambioImagen(); $('#1960').show();};
+      document.getElementById("btn3").onclick = function () { CambioImagen(); $('#1970').show();};
+      document.getElementById("btn4").onclick = function () { CambioImagen(); $('#19731').show();};
+      document.getElementById("btn5").onclick = function () { CambioImagen(); $('#19732').show();};
+      document.getElementById("btn6").onclick = function () { CambioImagen(); $('#19733').show();};
+      document.getElementById("btn7").onclick = function () { CambioImagen(); $('#197376').show();};
+      document.getElementById("btn8").onclick = function () { CambioImagen(); $('#197681').show();};
+
+      function CambioImagen(){
+        $('.disnon').hide();
+      }
+      CambioImagen();
+      $('#1957').show();
+
 }
