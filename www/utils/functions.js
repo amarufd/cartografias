@@ -1,4 +1,4 @@
-function initMap() {
+$( document ).ready(function initMap() {
     console.log("hola");
 
     function loadJSON(callback) {
@@ -151,4 +151,4 @@ function initMap() {
       $('#img1957').show();
       $('#con1957').show();
 
-}
+    });
