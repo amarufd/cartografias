@@ -127,11 +127,6 @@ $( document ).ready(function initMap() {
           $('#img19732').show();
           $('#con19732').show();
         };
-      document.getElementById("btn6").onclick = function () { 
-          CambioImagen(); 
-          $('#img19733').show();
-          $('#con19733').show();
-        };
       document.getElementById("btn7").onclick = function () { 
           CambioImagen(); 
           $('#img197376').show();

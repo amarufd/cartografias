@@ -7,7 +7,15 @@
 }
 
 body{
-    background-color:crimson;
+    background-color: seashell;
+}
+
+.bg-light{
+    background-color: seashell !important;
+}
+
+.anios{
+    margin: 17px 0px 17px 0px;
 }
 
 div {
