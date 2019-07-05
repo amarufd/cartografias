@@ -7,11 +7,11 @@
 }
 
 body{
-    background-color: seashell;
+    background-color: white;
 }
 
 .bg-light{
-    background-color: seashell !important;
+    background-color: white !important;
 }
 
 .anios{
@@ -23,14 +23,13 @@ div {
 }
 
 .informacion{
-    background-color: #f8f9fa;
-    border: solid 2px black;
+    background-color: white;
 }
 
 .button {
-    background-color: black;
+    background-color: white;
     border: solid black 2px;
-    color: white;
+    color: black;
     padding: 4px;
     text-align: center;
     font-weight: bold;
@@ -47,3 +46,14 @@ div {
   .button3 {border-radius: 8px;}
   .button4 {border-radius: 12px;}
   .button5 {border-radius: 50%;}
+
+  .pieImagen{
+      font-size: 118%;
+      margin: 14px 10px 32px 10px;
+  }
+  
+  .titulo{
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: 118%;
+  }
