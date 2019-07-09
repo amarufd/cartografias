@@ -66,6 +66,28 @@ $(document).ready(function initMap() {
             reloadLocaciones(locaciones);
         })
 
+        sleep(9000).then(function (params) {
+            var locaciones = [
+                ['casaHuelen4', -33.433543, -70.624545, 4]
+            ]
+            reloadLocaciones(locaciones);
+        })
+
+        sleep(12000).then(function (params) {
+            var locaciones = [
+                ['casaHuelen5', -33.434543, -70.625645, 5]
+            ]
+            reloadLocaciones(locaciones);
+        })
+
+
+        sleep(15000).then(function (params) {
+            var locaciones = [
+                ['casaHuelen6', -33.435543, -70.626745, 6]
+            ]
+            reloadLocaciones(locaciones);
+        })
+
 
     });
 
