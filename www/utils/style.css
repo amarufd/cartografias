@@ -57,3 +57,30 @@ div {
     justify-content: space-between;
     font-size: 118%;
   }
+  .articulo{
+    /*background-color: darkgrey;
+    border: solid black 2px;*/
+  }
+
+  iframe{
+       width: 91%;
+       height: 500px;
+  }
+
+ @media only screen and (max-width: 980px) {
+  iframe{
+       width: 91% !important;
+       height: 350px !important;
+  }
+}
+
+.rot{
+    transform: rotate(90deg);
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#map{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
