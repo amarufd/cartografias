@@ -7,11 +7,12 @@
 }
 
 body{
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 .bg-light{
-    background-color: white !important;
+    background-color: black !important;
 }
 
 .anios{
@@ -23,13 +24,13 @@ div {
 }
 
 .informacion{
-    background-color: white;
+    background-color: black;
 }
 
 .button {
-    background-color: white;
+    background-color: black;
     border: solid black 2px;
-    color: black;
+    color: white;
     padding: 4px;
     text-align: center;
     font-weight: bold;
@@ -54,8 +55,8 @@ div {
   
   .titulo{
     text-transform: uppercase;
-    justify-content: space-between;
-    font-size: 118%;
+    font-size: 140%;
+    text-align: left;
   }
   .articulo{
     /*background-color: darkgrey;
@@ -83,4 +84,51 @@ div {
 .map{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.tituloHome{
+    text-align: left;
+    top: 70%;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: black !important;
+}
+
+.dropdown-menu{
+    color: rgba(255,255,255,.5);
+    background-color: black;
+}
+
+a{
+    color: rgba(255,255,255,.5);
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: white;
+    background-color: slategray
+}
+
+.dropdown-menu > a{
+    color: white !important;
+}
+
+.cita{
+    text-align: left;
+    margin-top: 284px;
+    font-size: 79%;
+}
+
+.bodyHome::after{
+    background-image: url("/img/fondoA.png");
+    content: "";
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
 }
