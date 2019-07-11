@@ -117,7 +117,8 @@ a{
 
 .cita{
     text-align: left;
-    margin-top: 284px;
+    top: 30%;
+    position: fixed;
     font-size: 79%;
 }
 
